@@ -104,7 +104,7 @@ class Periodo:
 # ============================
 
 # Aspirante
-aspirante1 = Aspirante("Leyker", "Prado", 19)
+aspirante1 = Aspirante("Juan", "Moreira", 19)
 aspirante1.iniciar()
 aspirante1.actualizar_datos(nuevo_apellido="Prado Franco")
 
