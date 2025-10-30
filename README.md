@@ -31,7 +31,6 @@ print(aspirante1.inscribir("TI"))
 print(aspirante1.ingresar())
 print(aspirante1.salir())
 
-#leyker
 #definir la clase segmento poblacional
 class Segmentopoblacional:
     def __init__(self, leveleducativo, ingresos,intereses):
@@ -82,14 +81,13 @@ class Universidad:
                 f"{universidad1.obtener_num_Aspirantes(999)}\n")
     
 
- #instanciar la clase universidad ,creando un objeto llamado universidad1
+#instanciar la clase universidad ,creando un objeto llamado universidad1
  
 universidad1 = Universidad("Uleam","Avn. Circunvalacion", "1234567890")
 print(universidad1.agregarestudiante(1))
 print(universidad1.mostrarinformacion())
 
 
-#Leslie
 #definir la clase Asignacion
 class Asignacion:
     
@@ -137,7 +135,6 @@ class Cupos:
         
     
 #instanciando clase cupos ,creando objeto llamado cupos
-
 cupos1=Cupos("800","650","150") 
 print(cupos1.numero_de_asignados)
 print(cupos1.numero_de_no_asignados)
@@ -160,7 +157,6 @@ print(aspirante2.apellido)
 print(aspirante2.edad)
 
 #llamar metodos
-
 print(aspirante2.inscribir("TI"))
 print(aspirante2.ingresar())
 print(aspirante2.salir())
